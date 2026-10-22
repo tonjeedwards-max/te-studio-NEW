@@ -64,18 +64,23 @@ export default function PortfolioLayout({ slug, sections }) {
               )}
             </div>
             {s.projects ? (
-              <div className="mt-10 grid grid-cols-1 gap-10 lg:grid-cols-3">
+              <div className={`mt-10 grid grid-cols-1 gap-10 ${s.layout === "email-websites" ? "lg:grid-cols-2" : "lg:grid-cols-2"}`}>
                 {s.projects.map((project, index) => (
-                  <article key={project.title + "-" + index} className="flex flex-col gap-4">
+                  <article
+                    key={project.title + "-" + index}
+                    className={`flex min-w-0 flex-col gap-4 ${
+                      s.layout === "marketing" && index === 2 ? "lg:col-span-2" : ""
+                    } ${s.layout === "email-websites" && index === 0 ? "lg:row-span-2" : ""}`}
+                  >
                     <div className={project.images.length > 1 ? "grid grid-cols-2 gap-3" : "grid grid-cols-1 gap-3"}>
                       {project.images.map((img, imageIndex) => (
                         <figure key={img.src + "-" + imageIndex} className="flex flex-col gap-2">
-                          <div className="aspect-[3/4] overflow-hidden rounded-xl">
+                          <div className={`flex items-center justify-center overflow-hidden rounded-xl bg-secondary/20 p-2 ${s.layout === "marketing" && index === 2 ? "min-h-40" : ""}`}>
                             <Image
                               src={img.src}
                               alt={img.caption}
-                              fittingType="fill"
-                              className="h-full w-full"
+                              fittingType="contain"
+                              className="h-auto max-h-[32rem] w-full object-contain"
                             />
                           </div>
                           {project.images.length > 1 && (
