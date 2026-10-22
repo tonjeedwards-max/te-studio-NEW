@@ -337,6 +337,7 @@ export const graphicsWebPortfolio = {
     {
       number: "01",
       category: "Marketing Graphics",
+      layout: "marketing",
       body: "Campaign-ready visuals designed to make brands and promotions stand out across social media, professional platforms, and digital advertising.",
       projects: [
         {
@@ -365,6 +366,7 @@ export const graphicsWebPortfolio = {
     {
       number: "02",
       category: "Emails and Websites",
+      layout: "email-websites",
       body: "Branded email creatives and business websites that bring clear communication, consistent visuals, and practical user experience together.",
       note: "Explore the live websites for Global Service Adventures and Interglobal Technology Solution.",
       projects: [
