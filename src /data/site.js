@@ -434,6 +434,7 @@ export const digitalArtPortfolio = {
     {
       number: "01",
       category: "Environments",
+      layout: "environments",
       body: "Worlds and spaces created from imagination. Environment design is about setting mood and telling stories through space. A cluttered bedroom says something different than a pristine office. I build these spaces digitally to establish atmosphere and context.",
       projects: [
         {
@@ -462,6 +463,7 @@ export const digitalArtPortfolio = {
     {
       number: "02",
       category: "3D Models",
+      layout: "models",
       body: "Taking design into the third dimension because sometimes flat isn't enough. I create 3D models for various applications, from concept visualization to game assets to just experimenting with form and space.",
       projects: [
         {
