@@ -20,6 +20,12 @@ export default function ServicesSection() {
                 to={s.to}
                 className="flex flex-col rounded-2xl border border-border bg-background p-6 transition-shadow hover:shadow-gold"
               >
+                <img
+                  src={s.image}
+                  alt=""
+                  loading="lazy"
+                  className="-mx-6 -mt-6 mb-2 h-40 w-[calc(100%+3rem)] rounded-t-2xl object-cover"
+                />
                 <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-secondary text-accent">
                   <Icon size={22} />
                 </span>
