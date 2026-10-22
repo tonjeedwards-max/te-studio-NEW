@@ -1,9 +1,9 @@
 import { useState } from "react";
-import { Mail, Phone, MapPin, Linkedin, Facebook, Youtube } from "lucide-react";
+import { Mail, Phone, MapPin, Linkedin, Facebook, Youtube, Instagram } from "lucide-react";
 import { site, socials } from "@/data/site";
 import { submitContactMessage } from "@/api/contact";
 
-const iconMap = { LinkedIn: Linkedin, Facebook, YouTube: Youtube };
+const iconMap = { LinkedIn: Linkedin, Facebook, YouTube: Youtube, Instagram };
 
 export default function Contact() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
@@ -107,15 +107,13 @@ export default function Contact() {
 }
 
 function SocialButton({ social }) {
-  const base = "flex h-14 w-14 items-center justify-center rounded-xl border border-border shadow-sm transition-transform hover:scale-105";
+  const base = "flex h-14 w-14 items-center justify-center rounded-xl border border-accent/40 shadow-sm transition-all hover:scale-105 hover:-translate-y-0.5 hover:bg-accent hover:text-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent";
   if (social.name === "X") {
-    return <a href={social.url} target="_blank" rel="noreferrer" aria-label="X (Twitter)" className={`${base} bg-primary text-foreground`}>
-      <span className="font-serif text-xl font-bold">X</span>
-    </a>;
+    return null;
   }
   const Icon = iconMap[social.name];
-  return <a href={social.url} target="_blank" rel="noreferrer" aria-label={social.name} className={`${base} bg-background`}>
-    {Icon ? <Icon size={22} className="text-foreground" /> : <span>{social.name}</span>}
+  return <a href={social.url} target="_blank" rel="noreferrer" aria-label={social.name} className={`${base} bg-secondary/70 text-accent`}>
+    {Icon ? <Icon size={22} aria-hidden="true" /> : <span>{social.name}</span>}
   </a>;
 }
 
