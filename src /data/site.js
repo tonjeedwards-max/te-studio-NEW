@@ -341,8 +341,8 @@ export const graphicsWebPortfolio = {
       body: "Campaign-ready visuals designed to make brands and promotions stand out across social media, professional platforms, and digital advertising.",
       projects: [
         {
-          title: "October Campaign Graphic",
-          body: "A seasonal promotional design that pairs clear messaging with attention-grabbing visuals for a late-October campaign.",
+          title: "Mini Monday Instagram Graphic",
+          body: "An Instagram graphic for Mini Monday, designed to give the recurring feature a clear, eye-catching social presence.",
           images: [
             { src: "/IMAGES/Graphic%20Design/Oct-24-28-1.png", caption: "October campaign graphic." },
           ],
