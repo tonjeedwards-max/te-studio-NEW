@@ -8,7 +8,7 @@ export const site = {
   email: "tonje.edwards@gmail.com",
   phone: "+1 (876) 790-6364",
   location: "Kingston, Jamaica",
-  footerCredit: "Tonje Edwards — Communication Studio I · AY 2025/26 Sem 1",
+  footerCredit: "Tonje Edwards",
   logoFull: "https://media.base44.com/images/public/6a8f3818cb359994e15db779/240855f1a_2025Portfoliobanner.png",
   logoIcon: "https://media.base44.com/images/public/6a8f3818cb359994e15db779/2806eae1a_2025OnlinePortfolioAssets.png",
 };
@@ -35,10 +35,10 @@ export const nav = [
 ];
 
 export const socials = [
-  { name: "LinkedIn", url: "https://www.linkedin.com/in/tonje-edwards-055a76212/" },
   { name: "Facebook", url: "https://www.facebook.com/tonje.edwards/" },
-  { name: "X", url: "https://x.com/Edwards_CAT2012" },
+  { name: "Instagram", url: "https://www.instagram.com/t.edwards_cat2012/" },
   { name: "YouTube", url: "https://www.youtube.com/@TonjeEdwards" },
+  { name: "LinkedIn", url: "https://www.linkedin.com/in/tonje-edwards-055a76212" },
 ];
 
 export const hero = {
