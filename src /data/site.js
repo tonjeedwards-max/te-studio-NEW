@@ -368,30 +368,17 @@ export const graphicsWebPortfolio = {
 export const digitalArtPortfolio = {
   sections: [
     {
-      number: "01",
-      category: "Character Illustrations",
-      body: "Original characters brought to life through digital illustration. This is where my anime and manga influence shows up most obviously. Each character has their own personality, story, and visual identity. I use these skills for personal projects, commissions, and whenever a project needs custom illustration work instead of stock images that everyone's already seen.",
-      images: [
-        { src: "https://media.base44.com/images/public/6a8f3818cb359994e15db779/5a9d20911_generated_image.png", caption: "Digital illustration, 2023 — A humanization of the China Aster 'Lady Coral Salmon' flower. The character's flowing green hair mirrors the plant's foliage, while the coral-pink gown with delicate floral texturing reflects the flower's signature salmon-toned petals. The regal presentation and coastal setting evoke the cultivar's elegant, garden-worthy presence." },
-        { src: "https://media.base44.com/images/public/6a8f3818cb359994e15db779/ed5095921_generated_image.png", caption: "Digital character illustration, 2023 — A support superhero whose power eases pain, depicted in freefall to embody themes of freedom and lightness. The dynamic upward perspective and flowing hair emphasize weightlessness and release, while the soft color palette reinforces her gentle, healing nature." },
-        { src: "https://media.base44.com/images/public/6a8f3818cb359994e15db779/723a2b0c2_generated_image.png", caption: "Digital illustration, 2023 — A villain whose gambling-based powers inspired a 'deal with the devil' design concept. The demonic horns and playing card motifs throughout the costume visualize risk and chance, while the confident pose and urban rubble setting reinforce the character's dangerous allure and chaotic nature." },
-        { src: "https://media.base44.com/images/public/6a8f3818cb359994e15db779/caddd6821_generated_image.png", caption: "Digital illustration, 2024 — A 16-year-old warrior navigating a battlefield she was forced into, yet emerging victorious against the odds. The blood-stained armor and gown juxtapose youthful vulnerability with hard-won resilience, while the desolate landscape underscores the brutal reality of conflict and survival." },
-        { src: "https://media.base44.com/images/public/6a8f3818cb359994e15db779/e92a22549_generated_image.png", caption: "Digital illustration, 2025 — At 20, Michilline has ascended to the upper echelon following her wartime contributions. Framed as a formal portrait within an ornate gilded mirror, the composition reflects her elevated status, while the refined period dress and poised demeanor contrast sharply with her earlier battlefield image." },
-        { src: "https://media.base44.com/images/public/6a8f3818cb359994e15db779/d1f9e84cc_generated_image.png", caption: "Digital illustration, 2025 — A fictional model captured mid-photoshoot, inspired by JVKE's 'Golden Hour.' The warm, luminous palette and dynamic pose evoke the fleeting beauty of sunset light, while the flowing dress and delicate floral details emphasize an ethereal, sun-kissed aesthetic." },
-      ],
-    },
-    {
       number: "02",
       category: "Environments",
       body: "Worlds and spaces created from imagination. Environment design is about setting mood and telling stories through space. A cluttered bedroom says something different than a pristine office. I build these spaces digitally to establish atmosphere and context.",
       images: [
-        { src: "https://media.base44.com/images/public/6a8f3818cb359994e15db779/c3ff56a03_generated_image.png", caption: "Digital environment illustration, 2025 — A stark, manga-influenced depiction of Tokyo Airport's entrance at night. The high-contrast black-and-white rendering and halftone texturing create a graphic, atmospheric quality that emphasizes the architectural geometry and empty stillness of the transit space." },
-        { src: "https://media.base44.com/images/public/6a8f3818cb359994e15db779/89c8618b1_generated_image.png", caption: "Digital environment illustration, 2025 — A nocturnal cityscape featuring Tokyo Tower framed by urban infrastructure. The detailed linework and dramatic tonal range capture the layered depth of the metropolitan landscape, while the full moon adds a contemplative focal point to the architectural scene." },
-        { src: "https://media.base44.com/images/public/6a8f3818cb359994e15db779/4e6846d72_generated_image.png", caption: "Digital environment illustration, 2023 — A post-apocalyptic street scene populated by silhouetted creatures and survivors amid destroyed buildings. The manga-style composition uses stark contrast and scattered debris to convey collapse and danger, creating an unsettling narrative environment that balances architectural detail with atmospheric dread." },
+        { src: "/IMAGES/Digital%20Art/20250812_2116_Manga-Airport-Entrance_remix_01k2gka1d0edpbb9ev58nwm7mb.png", caption: "Manga-inspired airport entrance, 2025." },
+        { src: "/IMAGES/Digital%20Art/20250812_2130_Tokyo-Airport-Parking-Nightscape_remix_01k2gm32g3fkkbbjajjxk5dzry.png", caption: "Tokyo airport parking at night, 2025." },
+        { src: "/IMAGES/Digital%20Art/export1676764339640-scaled.png", caption: "Digital environment concept, 2023." },
       ],
     },
     {
-      number: "03",
+      number: "02",
       category: "3D Models",
       body: "Taking design into the third dimension because sometimes flat isn't enough. I create 3D models for various applications, from concept visualization to game assets to just experimenting with form and space.",
       images: [
