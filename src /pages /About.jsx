@@ -82,7 +82,7 @@ export default function About() {
                   src={src}
                   alt={`Nerding out ${i + 1}`}
                   fittingType="fill"
-                  className="h-full w-full"
+                  className={`h-full w-full object-cover ${i === 1 ? "object-left" : "object-center"}`}
                 />
               </div>
             ))}
