@@ -269,7 +269,7 @@ export const photographyPortfolio = {
     title: "Check Out My Other Stuff",
     cards: [
       { image: "https://media.base44.com/images/public/6a8f3818cb359994e15db779/fc2ae89a5_generated_image.png", label: "Head back to the Skills page", to: "/skills" },
-      { image: "https://media.base44.com/images/public/6a8f3818cb359994e15db779/c0b8df4fa_generated_image.png", label: "My Digital Art Portfolio", to: "/portfolio/digital" },
+      { image: "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/CREATE_BuildAlmostAnything.png", label: "My Digital Art Portfolio", to: "/portfolio/digital" },
       { image: "https://media.base44.com/images/public/6a8f3818cb359994e15db779/6131d3535_generated_image.png", label: "My Graphics and Design Portfolio", to: "/portfolio/graphics" },
     ],
   },
