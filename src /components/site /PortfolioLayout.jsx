@@ -96,7 +96,8 @@ export default function PortfolioLayout({ slug, sections }) {
                     </div>
                   </article>
                 ))}
-              </div>            ) : (
+              </div>
+            ) : (
               <div className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
                 {s.images.map((img, i) => (
                   <figure key={i} className="flex flex-col gap-3">
