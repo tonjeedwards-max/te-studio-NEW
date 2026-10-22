@@ -29,12 +29,14 @@ export default function ServicesSection() {
                 <p className="mt-3 text-sm leading-relaxed text-foreground/75">
                   {s.body}
                 </p>
-                <img
-                  src={s.image}
-                  alt=""
-                  loading="lazy"
-                  className="mx-auto mt-5 h-36 w-full max-w-[240px] rounded-xl object-cover"
-                />
+                <div className="mx-auto mt-5 h-36 w-full max-w-[240px] overflow-hidden rounded-xl">
+                  <img
+                    src={s.image}
+                    alt=""
+                    loading="lazy"
+                    className="h-full w-full object-cover"
+                  />
+                </div>
                 <span className="mt-5 font-mono text-[11px] text-foreground/30">
                   0{i + 1}
                 </span>
