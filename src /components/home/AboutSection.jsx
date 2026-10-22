@@ -8,7 +8,17 @@ export default function AboutSection() {
       <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
         {/* left visuals */}
         <div className="relative">
-          <CodeMock />
+          <div className="grid grid-cols-[1.15fr_0.85fr] items-center gap-3 sm:gap-4">
+            <CodeMock />
+            <div className="aspect-[3/4] overflow-hidden rounded-xl border border-border shadow-xl">
+              <img
+                src={about.image}
+                alt="Creative campaign design by Tonje Edwards"
+                loading="lazy"
+                className="h-full w-full object-cover"
+              />
+            </div>
+          </div>
           <BookingCard />
         </div>
 
