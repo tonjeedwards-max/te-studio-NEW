@@ -39,6 +39,7 @@ export const socials = [
   { name: "Instagram", url: "https://www.instagram.com/t.edwards_cat2012/" },
   { name: "YouTube", url: "https://www.youtube.com/@TonjeEdwards" },
   { name: "LinkedIn", url: "https://www.linkedin.com/in/tonje-edwards-055a76212" },
+  { name: "X", url: "https://x.com/Edwards_CAT2012" },
 ];
 
 export const hero = {
@@ -567,10 +568,10 @@ export const aboutNerdingOut = {
   body:
     "I'm probably drawing, coding something for fun, playing video games and analyzing their UI design, or out with my camera trying to figure out why everything looks better in my head than in the actual photo. The learning never really stops, I just call it different things depending on the day.",
   images: [
-    "https://media.base44.com/images/public/6a8f3818cb359994e15db779/e626e1471_generated_image.png",
     "https://media.base44.com/images/public/6a8f3818cb359994e15db779/c0b8df4fa_generated_image.png",
-    "https://media.base44.com/images/public/6a8f3818cb359994e15db779/e524af22c_generated_image.png",
-    "https://media.base44.com/images/public/6a8f3818cb359994e15db779/cae09f3ea_generated_image.png",
+    "/IMAGES/Graphic%20Design/Screenshot-2025-12-15-162326.png",
+    "/IMAGES/Digital%20Art/IMG_20250309_015639.jpg",
+    "/IMAGES/Digital%20Art/export1737927125462.png",
   ],
 };
 
