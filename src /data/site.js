@@ -23,9 +23,8 @@ export const nav = [
   { label: "Skills", to: "/skills" },
   {
     label: "Portfolio",
-    to: "/portfolio",
+    to: "/portfolio/digital",
     children: [
-      { label: "Photography Portfolio", to: "/portfolio" },
       { label: "Digital Portfolio", to: "/portfolio/digital" },
       { label: "Graphics & Web Portfolio", to: "/portfolio/graphics" },
       { label: "Audio & Video Post-Production Portfolio", to: "/portfolio/audio" },
@@ -153,7 +152,6 @@ export const footer = {
   },
   label: "Check Out More",
   links: [
-    { icon: "Image", label: "View Photography Portfolio", to: "/portfolio" },
     { icon: "Sparkles", label: "See What Else I Do", to: "/about" },
     { icon: "Mail", label: "Let's Work Together", to: "/contact" },
   ],
