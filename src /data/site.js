@@ -92,7 +92,7 @@ export const services = {
       title: "Custom Digital Content Creation",
       body: "I produce original visual content from digital illustrations to photography so you're not using the same stock images as everyone else.",
       image: "/IMAGES/Graphic%20Design/Standard-Ads-Size-10.png",
-      to: "/portfolio",
+      to: "/portfolio/digital",
     },
   ],
 };
@@ -576,7 +576,7 @@ export const skillsOverview = {
     },
     {
       title: "Photography",
-      to: "/portfolio",
+      to: "/skills",
       body: "I'm developing my photography skills, focusing on photojournalism. Coming from a digital art background, I understand composition and visual storytelling. Now I'm learning the technical camera skills and the art of capturing moments instead of creating them digitally.",
     },
     {
