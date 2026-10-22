@@ -93,6 +93,16 @@ export default function PortfolioLayout({ slug, sections }) {
                       <p className="mt-2 text-sm leading-relaxed text-foreground/75">
                         {project.body}
                       </p>
+                      {project.link && (
+                        <a
+                          href={project.link}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="mt-3 inline-flex text-sm font-semibold text-accent underline underline-offset-4 hover:opacity-80"
+                        >
+                          {project.linkLabel || "Visit website"}
+                        </a>
+                      )}
                     </div>
                   </article>
                 ))}
