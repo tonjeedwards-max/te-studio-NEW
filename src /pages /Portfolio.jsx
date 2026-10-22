@@ -1,5 +1,5 @@
-import PhotographyPortfolio from "@/components/site/PhotographyPortfolio";
+import { Navigate } from "react-router-dom";
 
 export default function Portfolio() {
-  return <PhotographyPortfolio />;
+  return <Navigate to="/portfolio/digital" replace />;
 }
