@@ -47,6 +47,12 @@
   body {
     @apply bg-background text-foreground font-body antialiased;
   }
+  input,
+  textarea,
+  select,
+  [contenteditable="true"] {
+    user-select: text;
+  }
   ::selection {
     background: hsl(var(--primary));
     color: hsl(var(--foreground));
