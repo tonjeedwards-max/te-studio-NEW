@@ -1,12 +1,22 @@
 // Two-tone sunflower back-to-top button: yellow petals, black center.
+import { useEffect, useState } from "react";
+
 export default function SunflowerFAB() {
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const updateVisibility = () => setVisible(window.scrollY > 280);
+    updateVisibility();
+    window.addEventListener("scroll", updateVisibility, { passive: true });
+    return () => window.removeEventListener("scroll", updateVisibility);
+  }, []);
   const petals = Array.from({ length: 16 });
   const seeds = Array.from({ length: 9 });
   return (
     <button
       onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
       aria-label="Back to top"
-      className="fixed bottom-6 right-6 z-40 hidden h-14 w-14 transition-transform hover:scale-110 hover:rotate-12 md:block"
+      className={`fixed bottom-12 right-6 z-40 hidden h-14 w-14 transition-all duration-300 hover:scale-110 hover:rotate-12 md:block ${visible ? "translate-y-0 opacity-100" : "pointer-events-none translate-y-3 opacity-0"}`}
     >
       <svg viewBox="0 0 200 200" className="h-full w-full drop-shadow" aria-hidden="true">
         <g>
