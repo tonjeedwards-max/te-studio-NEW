@@ -568,7 +568,7 @@ export const aboutNerdingOut = {
   body:
     "I'm probably drawing, coding something for fun, playing video games and analyzing their UI design, or out with my camera trying to figure out why everything looks better in my head than in the actual photo. The learning never really stops, I just call it different things depending on the day.",
   images: [
-    "https://media.base44.com/images/public/6a8f3818cb359994e15db779/c0b8df4fa_generated_image.png",
+    "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/CREATE_BuildAlmostAnything.png",
     "/IMAGES/Graphic%20Design/Screenshot-2025-12-15-162326.png",
     "/IMAGES/Digital%20Art/IMG_20250309_015639.jpg",
     "/IMAGES/Digital%20Art/export1737927125462.png",
