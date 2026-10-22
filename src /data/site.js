@@ -381,9 +381,31 @@ export const digitalArtPortfolio = {
       number: "02",
       category: "3D Models",
       body: "Taking design into the third dimension because sometimes flat isn't enough. I create 3D models for various applications, from concept visualization to game assets to just experimenting with form and space.",
-      images: [
-        { src: "https://media.base44.com/images/public/6a8f3818cb359994e15db779/8733395ee_generated_image.png", caption: "3D model, 2025 — Concept visualization exploring form and material, rendered with soft studio lighting to study surface and silhouette." },
-        { src: "https://media.base44.com/images/public/6a8f3818cb359994e15db779/09b292564_generated_image.png", caption: "3D model, 2025 — Game-ready character asset with clean topology and hand-painted textures, built for real-time rendering." },
+      projects: [
+        {
+          title: '3D model "Jay", 2025',
+          body: "An exploration of clothing as a form of self-expression, built around athleisure silhouettes that balance comfort, movement, and a sporty everyday style.",
+          images: [
+            { src: "/IMAGES/Digital%20Art/Jay-Default.png", caption: 'Jay, default view.' },
+            { src: "/IMAGES/Digital%20Art/Jay-Preview1.png", caption: 'Jay, alternate preview.' },
+          ],
+        },
+        {
+          title: '3D model "Kailee", 2025',
+          body: "A mix of modern urban streetwear and casual chic, exploring how relaxed street-inspired pieces can feel polished, confident, and personal.",
+          images: [
+            { src: "/IMAGES/Digital%20Art/Kai-lee-Default.png", caption: 'Kailee, default view.' },
+            { src: "/IMAGES/Digital%20Art/Kai-lee-Preview-1.png", caption: 'Kailee, alternate preview.' },
+          ],
+        },
+        {
+          title: '3D model "Millie", 2025',
+          body: "A pink goth look that pairs dark alternative styling with playful pink details, using fashion to express a softer, more whimsical side of goth aesthetics.",
+          images: [
+            { src: "/IMAGES/Digital%20Art/Milly-Default.png", caption: 'Millie, default view.' },
+            { src: "/IMAGES/Digital%20Art/Milly-Preview1.png", caption: 'Millie, alternate preview.' },
+          ],
+        },
       ],
     },
   ],
