@@ -64,7 +64,7 @@ export default function PortfolioLayout({ slug, sections }) {
               )}
             </div>
             {s.projects ? (
-              <div className={`mt-10 grid grid-cols-1 gap-10 ${s.layout === "email-websites" ? "lg:grid-cols-2" : "lg:grid-cols-2"}`}>
+              <div className={`mt-10 grid grid-cols-1 gap-10 ${s.layout === "marketing" || s.layout === "email-websites" ? "lg:grid-cols-2" : "lg:grid-cols-3"}`}>
                 {s.projects.map((project, index) => (
                   <article
                     key={project.title + "-" + index}
