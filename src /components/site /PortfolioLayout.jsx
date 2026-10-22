@@ -63,23 +63,57 @@ export default function PortfolioLayout({ slug, sections }) {
                 </p>
               )}
             </div>
-            <div className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-              {s.images.map((img, i) => (
-                <figure key={i} className="flex flex-col gap-3">
-                  <div className="aspect-[4/3] overflow-hidden rounded-xl">
-                    <Image
-                      src={img.src}
-                      alt={img.caption}
-                      fittingType="fill"
-                      className={`h-full w-full ${img.bw ? "grayscale" : ""}`}
-                    />
-                  </div>
-                  <figcaption className="px-2 text-center text-xs italic leading-relaxed text-foreground/70">
-                    {img.caption}
-                  </figcaption>
-                </figure>
-              ))}
-            </div>
+            {s.projects ? (
+              <div className="mt-10 grid grid-cols-1 gap-10 lg:grid-cols-3">
+                {s.projects.map((project) => (
+                  <article key={project.title} className="flex flex-col gap-4">
+                    <div className="text-center">
+                      <h3 className="font-display text-lg font-bold text-accent">
+                        {project.title}
+                      </h3>
+                      <p className="mt-2 text-sm leading-relaxed text-foreground/75">
+                        {project.body}
+                      </p>
+                    </div>
+                    <div className="grid grid-cols-2 gap-3">
+                      {project.images.map((img) => (
+                        <figure key={img.src} className="flex flex-col gap-2">
+                          <div className="aspect-[3/4] overflow-hidden rounded-xl">
+                            <Image
+                              src={img.src}
+                              alt={img.caption}
+                              fittingType="fill"
+                              className="h-full w-full"
+                            />
+                          </div>
+                          <figcaption className="text-center text-xs italic leading-relaxed text-foreground/70">
+                            {img.caption}
+                          </figcaption>
+                        </figure>
+                      ))}
+                    </div>
+                  </article>
+                ))}
+              </div>
+            ) : (
+              <div className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+                {s.images.map((img, i) => (
+                  <figure key={i} className="flex flex-col gap-3">
+                    <div className="aspect-[4/3] overflow-hidden rounded-xl">
+                      <Image
+                        src={img.src}
+                        alt={img.caption}
+                        fittingType="fill"
+                        className={`h-full w-full ${img.bw ? "grayscale" : ""}`}
+                      />
+                    </div>
+                    <figcaption className="px-2 text-center text-xs italic leading-relaxed text-foreground/70">
+                      {img.caption}
+                    </figcaption>
+                  </figure>
+                ))}
+              </div>
+            )}
           </section>
         ))}
       </div>
