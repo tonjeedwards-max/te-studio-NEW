@@ -337,34 +337,96 @@ export const graphicsWebPortfolio = {
     {
       number: "01",
       category: "Marketing Graphics",
-      body: "Graphics that actually get used in real campaigns. These aren't just pretty pictures; they're designed to communicate quickly, grab attention, and drive action. Social media posts, ad creatives, promotional newsletters, all optimized for their specific platforms and purposes. My design background means they look professional. My marketing knowledge means they actually perform.",
-      images: [
-        { src: "https://media.base44.com/images/public/6a8f3818cb359994e15db779/c92876fe6_generated_image.png", caption: "Social media ad creatives designed for quick communication and platform-specific optimization, combining bold typography with clean visual hierarchy." },
-        { src: "https://media.base44.com/images/public/6a8f3818cb359994e15db779/dd330664c_generated_image.png", caption: "Promotional newsletter layout built for engagement, with structured content blocks and a visual flow that guides the reader toward action." },
+      body: "Campaign-ready visuals designed to make brands and promotions stand out across social media, professional platforms, and digital advertising.",
+      projects: [
+        {
+          title: "October Campaign Graphic",
+          body: "A seasonal promotional design that pairs clear messaging with attention-grabbing visuals for a late-October campaign.",
+          images: [
+            { src: "/IMAGES/Graphic%20Design/Oct-24-28-1.png", caption: "October campaign graphic." },
+          ],
+        },
+        {
+          title: "Interglobal Black Friday Campaign",
+          body: "A Black Friday promotional creative for Interglobal Technology Solution, designed to make a time-sensitive campaign stand out.",
+          images: [
+            { src: "/IMAGES/Graphic%20Design/Interglobal-BlackFriday-10.png", caption: "Interglobal Black Friday campaign graphic." },
+          ],
+        },
+        {
+          title: "LinkedIn Website Banner",
+          body: "A professional banner design that strengthens brand presence and directs attention toward the company's online services.",
+          images: [
+            { src: "/IMAGES/Graphic%20Design/LinkedIn-Website-Banner-6.png", caption: "LinkedIn website banner." },
+          ],
+        },
       ],
     },
     {
       number: "02",
       category: "Emails and Websites",
-      body: "Email templates and websites that don't make people rage-quit. I build responsive designs that look good on every device, load fast enough that people don't leave, and actually guide users where they need to go. My coding knowledge means I can troubleshoot when things break. My design eye means they look professional while doing it.",
-      note: "WordPress is my primary platform, but I understand the code behind it. I can customize themes, troubleshoot issues, optimize performance, and make sure your site looks good on every device.",
-      images: [
-        { src: "https://media.base44.com/images/public/6a8f3818cb359994e15db779/6e41f4890_generated_image.png", caption: "Responsive email template rendered across desktop and mobile, with a layout that adapts cleanly to different screen sizes." },
-        { src: "https://media.base44.com/images/public/6a8f3818cb359994e15db779/f3669a1bf_generated_image.png", caption: "Responsive website build displayed on multiple devices, designed to load fast and guide users where they need to go." },
+      body: "Branded email creatives and business websites that bring clear communication, consistent visuals, and practical user experience together.",
+      note: "Explore the live websites for Global Service Adventures and Interglobal Technology Solution.",
+      projects: [
+        {
+          title: "Global Service Adventures Thanksgiving Email",
+          body: "A seasonal email design for a student travel company, using branded visuals to connect with its audience.",
+          link: "https://www.globalserviceadventures.org/",
+          linkLabel: "Visit Global Service Adventures",
+          images: [
+            { src: "/IMAGES/Graphic%20Design/GSA-ThanksGiving.png", caption: "Global Service Adventures Thanksgiving email." },
+          ],
+        },
+        {
+          title: "Global Service Adventures Website",
+          body: "A website for a student travel company, presenting its travel experiences and services in an accessible, branded format.",
+          link: "https://www.globalserviceadventures.org/",
+          linkLabel: "Visit Global Service Adventures",
+          images: [
+            { src: "/IMAGES/Graphic%20Design/gsa%20website.png", caption: "Global Service Adventures website." },
+          ],
+        },
+        {
+          title: "Interglobal Technology Solution Website",
+          body: "A business website for a security technology company, designed to introduce its services and establish a professional online presence.",
+          link: "https://interglobaltechnologysolution.com/",
+          linkLabel: "Visit Interglobal Technology Solution",
+          images: [
+            { src: "/IMAGES/Graphic%20Design/Interglobal%20website.png", caption: "Interglobal Technology Solution website." },
+          ],
+        },
       ],
     },
     {
       number: "03",
       category: "Book Covers",
-      body: "Book covers that make people want to pick up the book (or click if we're being honest about digital publishing). These combine my illustration skills with design principles and an understanding of genre expectations. A romance novel shouldn't look like a thriller, and I know how to communicate tone through visual design.",
-      images: [
-        { src: "https://media.base44.com/images/public/6a8f3818cb359994e15db779/f742a623e_generated_image.png", caption: "Romance novel cover — warm tones and elegant typography communicate the genre before the reader even reads the title." },
-        { src: "https://media.base44.com/images/public/6a8f3818cb359994e15db779/57454dd3a_generated_image.png", caption: "Thriller novel cover — dark, moody atmosphere and bold typography signal a completely different genre expectation." },
+      body: "Cover designs that use genre-aware imagery, atmosphere, and typography to set expectations before a reader opens the book.",
+      projects: [
+        {
+          title: "Fantasy Romance",
+          body: "A fantasy romance cover that brings a sense of wonder and romantic possibility to the story's visual identity.",
+          images: [
+            { src: "/IMAGES/Graphic%20Design/2024-Starry-Writing-Stand-Alone-600-x-800.png", caption: "Fantasy romance book cover." },
+          ],
+        },
+        {
+          title: "Thriller Novel",
+          body: "A dark, moody atmosphere and bold typography signal a tense, suspense-driven reading experience.",
+          images: [
+            { src: "/IMAGES/Graphic%20Design/Ebook-Standard-2025-1.png", caption: "Thriller novel cover." },
+          ],
+        },
+        {
+          title: "Romantic Thriller",
+          body: "A romantic thriller cover balancing romantic appeal with the tension and intrigue expected from the genre.",
+          images: [
+            { src: "/IMAGES/Graphic%20Design/Ebook-Standard-2025.png", caption: "Romantic thriller cover." },
+          ],
+        },
       ],
     },
   ],
 };
-
 export const digitalArtPortfolio = {
   sections: [
     {
