@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { audioVideoPortfolio, portfolioCategories } from "@/data/site";
 import PortfolioOtherStuff from "@/components/site/PortfolioOtherStuff";
 
-const cats = Object.values(portfolioCategories);
+const cats = Object.values(portfolioCategories).filter((category) => category.slug !== "photography");
 const data = portfolioCategories.audio;
 
 export default function AudioVideoPortfolio() {
