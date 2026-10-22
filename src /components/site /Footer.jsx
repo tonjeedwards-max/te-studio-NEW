@@ -1,8 +1,8 @@
-import { Facebook, Instagram, Youtube, Linkedin } from "lucide-react";
+import { Facebook, Instagram, Youtube, Linkedin, X } from "lucide-react";
 import { site, socials } from "@/data/site";
 import SunflowerFAB from "@/components/site/SunflowerFAB";
 
-const socialIconMap = { Facebook, Instagram, YouTube: Youtube, LinkedIn: Linkedin };
+const socialIconMap = { Facebook, Instagram, YouTube: Youtube, LinkedIn: Linkedin, X };
 
 export default function Footer() {
   return (
