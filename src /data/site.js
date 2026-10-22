@@ -49,6 +49,7 @@ export const hero = {
 };
 
 export const about = {
+  image: "/IMAGES/Graphic%20Design/Hire-Campaign-2025-6.png",
   eyebrow: "ABOUT ME",
   title: "A creative professional who actually knows how SEO works.",
   body: "I capture stories through photography, build websites that don't make people want to throw their computers, and occasionally convince Google that my content is worth showing people. Whether you need stunning visuals or someone who can handle everything from photo shoots to social media strategy, I'm your person.",
@@ -66,28 +67,32 @@ export const services = {
   title: "Comprehensive Design and Marketing Solutions",
   items: [
     {
-      icon: "Camera",
-      title: "Photography",
-      body: "Capturing real moments — events, sports, and human interest. No undo button, no layers panel, just me and a camera.",
-      to: "/portfolio",
-    },
-    {
       icon: "Palette",
-      title: "Digital Art & Illustration",
-      body: "Original digital illustrations and character art — where composition, color, and visual storytelling all began.",
-      to: "/portfolio/digital",
+      title: "Brand Identity & Visual Design",
+      body: "I create complete visual identities from logos to marketing materials that actually represent who you are and what you do.",
+      image: "/IMAGES/Graphic%20Design/558066823_18061011179382181_2818240189963523505_n.jpg",
+      to: "/portfolio/graphics",
     },
     {
       icon: "Globe",
-      title: "Graphics & Web",
-      body: "Brand identities, layouts, and web builds that look professional, load fast, and actually represent who you are.",
+      title: "Website Development & Management",
+      body: "I build WordPress sites that look professional, load fast, and don't require a computer science degree to understand.",
+      image: "/IMAGES/Graphic%20Design/gsa%20website.png",
+      to: "/portfolio/graphics",
+    },
+    {
+      icon: "Camera",
+      title: "Digital Marketing & SEO",
+      body: "I get your content in front of the right people through strategic SEO, targeted ads, and social media that actually engages instead of just existing.",
+      image: "/IMAGES/Website%20Assests/Screenshot-2025-12-17-000258.png",
       to: "/portfolio/graphics",
     },
     {
       icon: "Clapperboard",
-      title: "Audio & Video Post-Production",
-      body: "Editing, mixing, and post-production for audio and video — the newest addition to the toolkit.",
-      to: "/portfolio/audio",
+      title: "Custom Digital Content Creation",
+      body: "I produce original visual content from digital illustrations to photography so you're not using the same stock images as everyone else.",
+      image: "/IMAGES/Graphic%20Design/Standard-Ads-Size-10.png",
+      to: "/portfolio",
     },
   ],
 };
@@ -96,7 +101,7 @@ export const whyMe = {
   eyebrow: "WHY ME",
   title: "Committed to Excellence",
   image:
-    "https://media.base44.com/images/public/6a8f3818cb359994e15db779/cb976ac88_generated_image.png",
+    "/IMAGES/Website%20Assests/portrait.png",
   items: [
     {
       title: "Expertise & Experience",
@@ -121,19 +126,19 @@ export const projects = {
     {
       title: "Character Illustration",
       image:
-        "https://media.base44.com/images/public/6a8f3818cb359994e15db779/1c3a4851c_generated_image.png",
+        "/IMAGES/Digital%20Art/export202511112123402960.png",
       shape: "circle",
     },
     {
       title: "Sports Photography",
       image:
-        "https://media.base44.com/images/public/6a8f3818cb359994e15db779/582e36a50_generated_image.png",
+        "/IMAGES/Sports%20Photography/IMG_0159-scaled.jpg",
       shape: "square",
     },
     {
       title: "Editorial Design",
       image:
-        "https://media.base44.com/images/public/6a8f3818cb359994e15db779/6131d3535_generated_image.png",
+        "/IMAGES/Graphic%20Design/Ebook-Standard-2025-1.png",
       shape: "square",
     },
   ],
