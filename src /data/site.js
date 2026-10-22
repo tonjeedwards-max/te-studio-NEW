@@ -209,7 +209,7 @@ export const portfolioCategories = {
   },
 };
 
-export const portfolioOrder = ["photography", "digital", "graphics", "audio"];
+export const portfolioOrder = ["digital", "graphics", "audio"];
 
 export const photographyPortfolio = {
   header: {
@@ -368,13 +368,31 @@ export const graphicsWebPortfolio = {
 export const digitalArtPortfolio = {
   sections: [
     {
-      number: "02",
+      number: "01",
       category: "Environments",
       body: "Worlds and spaces created from imagination. Environment design is about setting mood and telling stories through space. A cluttered bedroom says something different than a pristine office. I build these spaces digitally to establish atmosphere and context.",
-      images: [
-        { src: "/IMAGES/Digital%20Art/20250812_2116_Manga-Airport-Entrance_remix_01k2gka1d0edpbb9ev58nwm7mb.png", caption: "Manga-inspired airport entrance, 2025." },
-        { src: "/IMAGES/Digital%20Art/20250812_2130_Tokyo-Airport-Parking-Nightscape_remix_01k2gm32g3fkkbbjajjxk5dzry.png", caption: "Tokyo airport parking at night, 2025." },
-        { src: "/IMAGES/Digital%20Art/export1676764339640-scaled.png", caption: "Digital environment concept, 2023." },
+      projects: [
+        {
+          title: "Digital environment illustration, 2025",
+          body: "A stark, manga-influenced depiction of Tokyo Airport's entrance at night.",
+          images: [
+            { src: "/IMAGES/Digital%20Art/20250812_2116_Manga-Airport-Entrance_remix_01k2gka1d0edpbb9ev58nwm7mb.png", caption: "Tokyo Airport entrance at night." },
+          ],
+        },
+        {
+          title: "Digital environment illustration, 2025",
+          body: "A nocturnal cityscape featuring Tokyo Tower.",
+          images: [
+            { src: "/IMAGES/Digital%20Art/20250812_2130_Tokyo-Airport-Parking-Nightscape_remix_01k2gm32g3fkkbbjajjxk5dzry.png", caption: "Nocturnal cityscape featuring Tokyo Tower." },
+          ],
+        },
+        {
+          title: "Digital environment illustration, 2023",
+          body: "A post-apocalyptic street scene populated by silhouetted creatures amid destroyed buildings.",
+          images: [
+            { src: "/IMAGES/Digital%20Art/export1676764339640-scaled.png", caption: "Post-apocalyptic street scene." },
+          ],
+        },
       ],
     },
     {
