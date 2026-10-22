@@ -3,7 +3,7 @@ import { Image } from "@/components/ui/image";
 import { portfolioCategories } from "@/data/site";
 import PortfolioOtherStuff from "@/components/site/PortfolioOtherStuff";
 
-const cats = Object.values(portfolioCategories);
+const cats = Object.values(portfolioCategories).filter((category) => category.slug !== "photography");
 
 export default function PortfolioLayout({ slug, sections }) {
   const data = portfolioCategories[slug];
@@ -65,19 +65,11 @@ export default function PortfolioLayout({ slug, sections }) {
             </div>
             {s.projects ? (
               <div className="mt-10 grid grid-cols-1 gap-10 lg:grid-cols-3">
-                {s.projects.map((project) => (
-                  <article key={project.title} className="flex flex-col gap-4">
-                    <div className="text-center">
-                      <h3 className="font-display text-lg font-bold text-accent">
-                        {project.title}
-                      </h3>
-                      <p className="mt-2 text-sm leading-relaxed text-foreground/75">
-                        {project.body}
-                      </p>
-                    </div>
-                    <div className="grid grid-cols-2 gap-3">
-                      {project.images.map((img) => (
-                        <figure key={img.src} className="flex flex-col gap-2">
+                {s.projects.map((project, index) => (
+                  <article key={project.title + "-" + index} className="flex flex-col gap-4">
+                    <div className={project.images.length > 1 ? "grid grid-cols-2 gap-3" : "grid grid-cols-1 gap-3"}>
+                      {project.images.map((img, imageIndex) => (
+                        <figure key={img.src + "-" + imageIndex} className="flex flex-col gap-2">
                           <div className="aspect-[3/4] overflow-hidden rounded-xl">
                             <Image
                               src={img.src}
@@ -86,16 +78,25 @@ export default function PortfolioLayout({ slug, sections }) {
                               className="h-full w-full"
                             />
                           </div>
-                          <figcaption className="text-center text-xs italic leading-relaxed text-foreground/70">
-                            {img.caption}
-                          </figcaption>
+                          {project.images.length > 1 && (
+                            <figcaption className="text-center text-xs italic leading-relaxed text-foreground/70">
+                              {img.caption}
+                            </figcaption>
+                          )}
                         </figure>
                       ))}
                     </div>
+                    <div className="text-center">
+                      <h3 className="font-display text-lg font-bold text-accent">
+                        {project.title}
+                      </h3>
+                      <p className="mt-2 text-sm leading-relaxed text-foreground/75">
+                        {project.body}
+                      </p>
+                    </div>
                   </article>
                 ))}
-              </div>
-            ) : (
+              </div>            ) : (
               <div className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
                 {s.images.map((img, i) => (
                   <figure key={i} className="flex flex-col gap-3">
