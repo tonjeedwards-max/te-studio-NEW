@@ -54,5 +54,6 @@ function resolveLegacySpacedPaths() {
 }
 
 export default defineConfig({
+  publicDir: 'PUBLIC',
   plugins: [resolveLegacySpacedPaths(), react()],
 })
