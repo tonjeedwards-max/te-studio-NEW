@@ -152,6 +152,7 @@ export const footer = {
   },
   label: "Check Out More",
   links: [
+    { icon: "Image", label: "View Graphic Design Portfolio", to: "/portfolio/graphics" },
     { icon: "Sparkles", label: "See What Else I Do", to: "/about" },
     { icon: "Mail", label: "Let's Work Together", to: "/contact" },
   ],
